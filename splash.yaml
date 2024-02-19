@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#45501d"
+  color_dark: "#45501d"
+  image: assets/images/Alqassam_logo.png
+  image_dark: assets/images/Alqassam_logo.png
+
+  android_12:
+    color: "#45501d"
+    color_dark: "#45501d"
+    image: assets/images/Alqassam_logo.png
+    image_dark: assets/images/Alqassam_logo.png
+
+  web: false
