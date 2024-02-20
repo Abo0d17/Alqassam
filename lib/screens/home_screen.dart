@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("الرئيسية"),
+      child: Text("كتائب عز الدين القسام"),
     );
   }
 }
