@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class TColors {
   // App theme colors
 // <<<<<<< HEAD
-  static const Color primary = Color(0xFF1d2b0c); // #1d2b0c
-  static const Color secondary = Color(0xFFFFE24B);
+//   static const Color primary = Color(0xFF1d2b0c); // #1d2b0c
+//   static const Color secondary = Color(0xFFFFE24B);
 // =======
-//   static const Color primary = Color(0xff1E2C0C);
-//   static const Color secondary = Color(0xffC9C7AF);
+  static const Color primary = Color(0xff1E2C0C);
+  static const Color secondary = Color(0xffC9C7AF);
 // >>>>>>> 5f352865d54d609ecbf41e3cb9e0496e809f652f
   static const Color accent = Color(0xFFb0c7ff);
 
