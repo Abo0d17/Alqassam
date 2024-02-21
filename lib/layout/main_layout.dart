@@ -23,35 +23,21 @@ class MainLayout extends StatelessWidget {
           return Directionality(
             textDirection: TextDirection.rtl,
             child: Scaffold(
-              drawer: Drawer(),
+              drawer: const Drawer(),
               appBar: AppBar(
                 backgroundColor: TColors.primary,
                 title: Text(
                   cubit.title[cubit.currentIndex],
-                  style: const TextStyle(
-                    color: TColors.light,
-                  ),
+                  style: const TextStyle(),
                 ),
                 actions: const [
                   Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 10,
-                    ),
-                    child: Icon(
-                      Icons.brightness_4,
-                      size: 25,
-                      color: TColors.light,
-                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    child: Icon(Icons.brightness_4),
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 10,
-                    ),
-                    child: Icon(
-                      Icons.settings,
-                      size: 25,
-                      color: TColors.light,
-                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    child: Icon(Icons.settings),
                   ),
                 ],
               ),
