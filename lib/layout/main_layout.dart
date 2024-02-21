@@ -28,7 +28,10 @@ class MainLayout extends StatelessWidget {
                 backgroundColor: TColors.primary,
                 title: Text(
                   cubit.title[cubit.currentIndex],
-                  style: const TextStyle(),
+                  // style: const TextStyle(),
+                  style:
+                      const TextStyle(color: TColors.light, fontFamily: 'Foda'),
+// >>>>>>> 5f352865d54d609ecbf41e3cb9e0496e809f652f
                 ),
                 actions: const [
                   Padding(
@@ -68,18 +71,22 @@ class MainLayout extends StatelessWidget {
                   GButton(
                     icon: LineIcons.home,
                     text: 'الرئيسية',
+                    textStyle: TextStyle(fontFamily: 'Foda'),
                   ),
                   GButton(
                     icon: LineIcons.heart,
                     text: 'المفضلة',
+                    textStyle: TextStyle(fontFamily: 'Foda'),
                   ),
                   GButton(
                     icon: Icons.video_collection_outlined,
                     text: 'فيديوهات',
+                    textStyle: TextStyle(fontFamily: 'Foda'),
                   ),
                   GButton(
                     icon: Icons.rocket_launch_outlined,
                     text: 'الأسلحة',
+                    textStyle: TextStyle(fontFamily: 'Foda'),
                   )
                 ],
               ),
